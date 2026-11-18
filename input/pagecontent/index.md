@@ -6,22 +6,19 @@
 
 ### Use Case
 
-TODO: Beschreibt in zwei bis drei Sätzen, welche Situation euer IG abbildet.
-Wer erfasst die Daten, wer liest sie, und wofür werden sie gebraucht?
+Eine Hausarztpraxis erfasst Arzneimittelallergien ihrer Patientinnen und Patienten mithilfe eines standardisierten FHIR-Profils. Die Informationen werden von Ärztinnen und Ärzten dokumentiert und können von einer Notfallstation zuverlässig ausgewertet werden. Dadurch stehen wichtige Angaben zu Allergien und möglichen Reaktionen zur Verfügung.
+
 
 ### Scope
 
-TODO: Was deckt dieses IG ab, und was bewusst nicht?
+Dieses Implementation Guide beschreibt die strukturierte Erfassung von Arzneimittelallergien auf Basis von CH Core AllergyIntolerance. Es legt Anforderungen an den klinischen Status, die verwendeten Codes, die Kritikalität, den Beginn der Allergie, die erfassende Fachperson und mögliche Reaktionen fest.
+
+Andere Allergiearten, beispielsweise Lebensmittel- oder Umweltallergien, sind nicht Bestandteil dieses IG.
 
 ### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
-
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): TODO
-* [Titel eures Beispiels](AllergyIntolerance-TODO_Name.html): TODO
-
-<!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
-     z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
+* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): FHIR-Profil zur standardisierten Dokumentation von Arzneimittelallergien.
+* [Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnna.html): Beispiel einer bestätigten Penicillinallergie mit dokumentierter Hautreaktion.
 
 ### Abhängigkeiten
 
@@ -29,6 +26,6 @@ Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
 
 ### Autorin oder Autor
 
-TODO: Euer Name.
+Alisha Bieli
 
 <p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>
